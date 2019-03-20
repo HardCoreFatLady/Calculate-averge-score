@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset="UTF-8">
+        <title>calculate students' average score</title>
+        <script type="text/javascript">
+        for(var i=1;i<=3;i++){
+            alert("Please enter class"+i+"'s students' score");
+            var sum=0;
+            for(var j=1;j<=4;j++){
+                var score=Number(prompt("Please enter number"+j+"'s students' score:"));
+                sum+=score;
+            }
+            var avg=sum/4;
+            console.log("the"+i+"class's averge acore:"+avg);
+        }
+        </script>
+    </head>
+</html>
